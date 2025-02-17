@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Main Page</title>
+
+    <link rel="stylesheet" href="style-app.css" />
+  </head>
+  <body class="bg-purple-200">
+    <div id="menu" class="text-3xl absolute p-3">🆇</div>
+    <h1 class="w-full text-center p-3 font-bold text-2xl">
+      Welcome, <span id="user-name">User</span>!
+    </h1>
+    <div class="w-[90%] m-auto">
+      <p class="text-center">This is the main screen.</p>
+      <button
+        id="load-page-1"
+        class="rounded-2xl p-3 flex items-center justify-center bg-white h-[20px] text-black"
+      >
+        Change Your name 👈
+      </button>
+    </div>
+    <script src="../renderer.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+#intro {
+  transition: 1s ease-in-out;
+}
+#what {
+  transition: 1s ease-in-out;
+}
+#start {
+  transition: 1s ease-in-out;
+}
+#btn-left {
+  transition: 1s ease-in-out;
+}
+#btn-right {
+  transition: 1s ease-in-out;
+}
+#start-btn {
+  opacity: 0;
+  transform: translateY(350px);
+  transition: 1s ease-in-out;
+}

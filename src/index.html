@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EFI APP</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./index.js"></script>
+    <!-- 350 x 490 -->
+  </head>
+  <body class="min-h-screen bg-purple-100 overflow-hidden text-white">
+    <div
+      class="w-[1050px] h-screen bg-black flex transition-transform duration-500 relative"
+    >
+      <div
+        id="remove"
+        class="aboslute h-screen w-screen p-10 top-0 flex items-center justify-between z-40"
+      >
+        <button
+          id="btn-left"
+          class="rounded-2xl p-3 flex items-center justify-center bg-white h-[20px] w-[20px] text-white"
+        >
+          👈
+        </button>
+        <button
+          id="btn-right"
+          class="rounded-2xl p-3 flex items-center justify-center bg-white h-[20px] w-[20px] text-white"
+        >
+          👉
+        </button>
+      </div>
+      <div id="intro" class="w-[350px] h-[100%] bg-blue-400 absolute z-30">
+        intro
+      </div>
+      <div id="what" class="w-[350px] h-[100%] bg-red-400 absolute z-20">
+        what
+      </div>
+      <div
+        id="start"
+        class="w-[350px] h-[100%] bg-green-400 absolute flex items-center flex-col justify-center z-10"
+      >
+        <div class="w-[320px] h-[200px] p-2 text-2xl">You are good to go!</div>
+        <input
+          class="appearance-none border text-center text-black border-2 border-green-600 p-1 rounded-xl leading-tight focus:outline-none focus:shadow-outline"
+          type="text"
+          id="name-input"
+          placeholder="Enter Your Name"
+        />
+        <button
+          id="start-btn"
+          class="w-[80px] h-[20px] p-2 bg-green-400 m-10 flex items-center justify-center shadow-md rounded-xl"
+        >
+          Start
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
